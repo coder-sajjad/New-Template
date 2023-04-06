@@ -1,0 +1,420 @@
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700');
+ body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+body{
+	background-color: #0F0F0F;
+}
+img{
+	width: 100%;
+}
+
+/* Header Area Css */
+.bg-black{
+	background-color: #000;
+}
+.header-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-content .logo{
+	width: 33.3%;
+}
+.header-content .logo a img{
+	width: 80%;
+}
+.header-content .menu{
+	width: 33.3%;
+}
+.header-content .menu ul{
+	text-align: center;
+}
+.header-content .menu ul li{}
+.header-content .menu ul li a{
+	color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 30px;
+	font-size: 16px;
+	font-weight: 400;
+    padding: 5px 20px;
+    display: inline-block;
+}
+.header-content .right {
+	width: 33.3%;
+}
+.header-content .right ul {
+	text-align: right;
+}
+.header-content .right ul li a{
+	border: none;
+	color: #7B40DF;
+    text-decoration: none;
+    border-radius: 30px;
+	font-size: 16px;
+	font-weight: 400;
+    padding: 5px 20px;
+    display: inline-block;
+}
+.header-content .right ul li a img{
+	width: 15px;
+	margin-right: 5px;
+}
+
+
+/* Main Area Css */
+.section{
+	padding: 100px 0px;
+}
+.first-carousel{}
+.first-carousel .section-title{
+	color: rgba(215, 158, 255, 1);
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+.first-carousel .subheading{
+	color: #999;
+	font-size: 17px;
+	line-height: 36px;
+}
+
+#carouselExampleIndicators .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+	align-items: start;
+    top: -15% !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.carousel-item .img-div {
+	width: 100%;
+	height: 180px;
+}
+.first-carousel .top-area{
+	color: #999;
+	font-size: 17px;
+	line-height: 29px;
+}
+.first-carousel .top-area span{
+	cursor: pointer;
+	padding: 5px;
+}
+.first-carousel .body-area{
+	border: 1px solid #999;
+	width: 100%;
+	height: 180px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.first-carousel .body-area span{
+	text-align: right;
+	display: block;
+	line-height: 20px;
+	color: #999;
+	cursor: pointer;
+}
+
+/* Second Carousel */
+.second-carousel {
+	
+}
+.scrollbar {
+    overflow-y: scroll;
+    height: 710px;
+}
+.scrollbar::-webkit-scrollbar{
+	width: 5px;
+}
+.scrollbar::-webkit-scrollbar-track{
+	border-radius: 10px;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+.second-carousel .section-title{
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	color: rgba(123, 64, 223, 1);
+}
+.second-carousel .top-area {
+    color: #999;
+    padding: 5px;
+    line-height: 28px;
+}
+.second-carousel .top-area span{
+    cursor: pointer;
+}
+#carouselExampleControlsNoTouching .carousel-control-next {
+    position: absolute;
+	align-items: start;
+    top: -2% !important;
+}
+#carouselExampleControlsNoTouching .carousel-control-prev {
+    position: absolute;
+	align-items: start;
+    top: -2% !important;
+}
+.second-carousel .body-area{
+	padding: 10px;
+	border-radius: 5px;
+}
+.second-carousel .subheading{
+	color: #999;
+}
+.carousel-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5px;
+}
+.carousel-content .item {
+    width: 50%;
+    height: 105px;
+    border: 1px solid #999;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+.item .body-area .body-top{
+	flex: 1;
+	display: flex;
+	gap: 5px;
+	justify-content: end;
+	color: #999;
+}
+.item .body-area .body-top span{
+	cursor: pointer;
+}
+.item .body-area .body-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(123, 64, 223, 1);
+	font-size: 30px;
+}
+.item .body-area .body-center span {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* Middle Col */
+.middle-col{
+
+}
+.scrollbar2{
+	overflow-y: scroll;
+	height: 900px;
+}
+.scrollbar2::-webkit-scrollbar{
+	width: 5px;
+}
+.scrollbar2::-webkit-scrollbar-track{
+	border-radius: 10px;
+}
+.scrollbar2::-webkit-scrollbar-thumb{
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+.middle-col .button-div{
+	gap: 50px;
+	margin-bottom: 30px;
+}
+.button-div a {
+	text-decoration: none;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 5px 30px;
+    display: flex;
+    gap: 8px;
+    color: #fff;
+	border-radius: 30px;
+}
+
+.middle-content{
+	display: flex;
+	gap: 5px;
+	margin-top: -1px;
+}
+.middle-content .numberbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 20px 0px;
+}
+.middle-content .numberbox span{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.middle-content .numberbox :first-child{
+	color: #6D70FF;
+}
+.middle-content .numberbox :last-child{
+	color: #07B8FD;
+
+}
+.middle-item {
+    display: flex;
+    width: 100%;
+    border: 1px solid #999;
+    margin-top: 2px;
+}
+.middle-item .item {
+    width: 33.3%;
+    height: 180px;
+    border-right: 1px solid #999;
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.middle-item .item span {
+    cursor: pointer;
+}
+.middle-item :first-child {
+	border-radius: 5px 0px 0px 0px;
+}
+.middle-item :last-child {
+	border-radius: 0px 5px 0px 0px;
+	border-right: none;
+}
+.middle-item :nth-child(2){
+	border-radius: 0px 0px 0px 0px;
+	margin-left: -1px;
+	margin-right: -1px;
+
+}
+.middle-item .item span{
+	color: #999;
+}
+
+/* Right Carousel CSS */
+.scrollbar3 {
+    height: 900px;
+    overflow-y: scroll;
+}
+.scrollbar3::-webkit-scrollbar{
+	width: 5px;
+}
+.scrollbar3::-webkit-scrollbar-track{
+	border-radius: 10px;
+}
+.scrollbar3::-webkit-scrollbar-thumb{
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+.right-carousel .section-title{
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	color: #6D70FF;
+	margin-bottom: 0px;
+}
+.right-carousel .subheading {
+    color: #999;
+    padding: 5px;
+    line-height: 27px;
+}
+#carouselExampleIndicators2 .carousel-control-next {
+    position: absolute;
+	align-items: start;
+    top: -2% !important;
+}
+#carouselExampleIndicators2 .carousel-control-prev {
+    position: absolute;
+	align-items: start;
+    top: -2% !important;
+}
+.right-carousel .body-area{
+	padding: 10px;
+	border-radius: 5px;
+}
+.right-carousel .carousel-content{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 1px;
+}
+.right-carousel .carousel-content .item {
+    width: 50%;
+    height: 104.5px;
+    border: 1px solid #999;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+.right-carousel .carousel-content .item .body-area .body-top{
+	flex: 1;
+	display: flex;
+	gap: 5px;
+	justify-content: end;
+	color: #999;
+}
+.right-carousel .carousel-content .item .body-area .body-top span{
+	cursor: pointer;
+}
+.right-carousel .carousel-content .item .body-area .body-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #6D70FF;
+	font-size: 30px;
+}
+.right-carousel .carousel-content .item .body-area .body-center span {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Footer area CSS */
+.footer-area{
+	padding: 80px 0px;
+}
+.footer-area .wrapper{}
+.footer-area .wrapper .title{
+	font-size: 24px;
+	line-height: 29px;
+	color: rgba(215, 158, 255, 1);
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.footer-area .wrapper .wrapper-content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-area .wrapper .wrapper-content .item {
+    border: 1px solid #999;
+    padding: 10px;
+    width: 33.3%;
+    height: 90px;
+}
+.footer-area .wrapper .wrapper-content .item .top-area {
+    text-align: right;
+    color: #999;
+}
+.scolor{
+	color: rgba(7, 184, 253, 1) !important;
+}
+.scolor2{
+	color: rgba(123, 64, 223, 1) !important;
+}
