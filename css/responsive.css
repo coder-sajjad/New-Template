@@ -21,38 +21,12 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-    .header-content .logo a img {
-        width: 100%;
-    }
-    .middle-col {
-        padding: 80px 0;
-    }
-    .middle-item .item {
-        height: 120px;
-    }
-    .header-content .menu {
-        display: none;
-    }
-    .carousel-content .item {
-        height: 130px;
-    }
-    .item .body-area .body-center {
-        align-items: end;
-    }
-    .header-content .right {
-        width: 66.5%;
-    }
-    .footer-area {
-        padding-bottom: 80px;
-    }
 
+ 
 }
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .container {width:450px}
-    h2.title {
-        margin-top: 50px;
-    }
+.container {width:450px}
  
 }

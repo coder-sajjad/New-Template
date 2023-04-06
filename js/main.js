@@ -150,7 +150,6 @@ new WOW().init();
 
 })(jQuery);
 
-
 $(document).ready(function(){
 	$(".owl-carousel").owlCarousel();
 });
